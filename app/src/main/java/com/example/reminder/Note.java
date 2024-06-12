@@ -12,19 +12,22 @@ public class Note {
         this.text = text;
         this.important = important;
     }
-
+    // Not ID'sini döndürür
     public int getId() {
         return id;
     }
 
+    // Not başlığını döndürür
     public String getTitle() {
         return title;
     }
 
+    // Not metnini döndürür
     public String getText() {
         return text;
     }
 
+    // Notun önemli olup olmadığını döndürür
     public boolean isImportant() {
         return important;
     }

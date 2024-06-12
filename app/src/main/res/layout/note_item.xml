@@ -4,6 +4,7 @@
     android:layout_height="wrap_content"
     android:padding="16dp"
     android:background="@drawable/note_item_style"
+    android:layout_marginBottom="12dp"
     >
 
     <TextView
